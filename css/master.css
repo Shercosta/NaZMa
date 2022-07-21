@@ -1,0 +1,31 @@
+/* classes */
+
+.homeSect {
+    padding: 0;
+    position: fixed;
+}
+
+.homeSectRight {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.homeTextLarge {
+    margin: 40% 3rem 2rem 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.homeTextSmall {
+    margin: 2rem 1rem 2rem 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.tinyImage {
+    width: 100vh;
+}
