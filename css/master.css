@@ -1,12 +1,38 @@
 /* classes */
 
+.blankTab {
+    width: 25%;
+}
+
+.centerDiv {
+    margin: auto;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 5px;
+}
+
+.cardTinyImage {
+    height: 40%;
+    width: 40%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.homeImageCrop {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
 .homeSect {
-    padding: 0;
+    padding-left: 0;
 }
 
 .homeSectRight {
-    background-color: white;
-    min-height: 100vh;
+    background-color: #E8E4E1;
+    min-height: 100%;
 }
 
 .homeTextLarge {
@@ -21,8 +47,26 @@
     padding-right: 1rem;
 }
 
+.layananCard {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.layananTab {
+    margin-top: 1.2rem;
+    padding-bottom: 3rem;
+}
+
+.layananTitle {
+    margin-top: 3rem;
+}
+
 .nav-item {
     text-align: center;
+}
+
+.parent {
+    display: flex;
 }
 
 .sectionHeadings {
@@ -30,5 +74,5 @@
 }
 
 .tinyImage {
-    width: 100vh;
+    width: 100%;
 }
