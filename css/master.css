@@ -6,8 +6,34 @@ a:hover {
     color: inherit;
 }
 
+h2 {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+p {
+    margin: 0;
+}
+
 
 /* classes */
+
+.achievementItems {
+    text-align: center;
+}
+
+.achievementCol {
+    background-color: white;
+    height: 5rem;
+    width: 18rem;
+    margin: 1rem;
+}
+
+.bigRegisButton {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+}
 
 .blankTab {
     width: 25%;
@@ -15,6 +41,7 @@ a:hover {
 
 .centerDiv {
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 .card:hover {
@@ -26,6 +53,10 @@ a:hover {
     width: 40%;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.FontAwesomeLogo {
+    font-size: 3rem;
 }
 
 .homeImageCrop {
@@ -42,6 +73,8 @@ a:hover {
 .homeSectRight {
     background-color: #E8E4E1;
     min-height: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .homeTextLarge {
@@ -66,16 +99,20 @@ a:hover {
     padding-bottom: 3rem;
 }
 
-.layananTitle {
-    margin-top: 3rem;
-}
-
 .nav-item {
     text-align: center;
 }
 
+.oddBG {
+    background-color: #E8E4E1;
+}
+
 .parent {
     display: flex;
+}
+
+.parentRegis {
+    position: relative;
 }
 
 .sectionHeadings {
