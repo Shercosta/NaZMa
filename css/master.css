@@ -28,11 +28,6 @@ p {
     margin: 1rem;
 }
 
-.achievementCol:hover {
-    color: white;
-    background-color: #040404;
-}
-
 .bigRegisButton {
     position: absolute;
     /* top: 50%; */
@@ -49,7 +44,7 @@ p {
 }
 
 .card:hover {
-    box-shadow: 10px 10px 5px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .cardTinyImage {
