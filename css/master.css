@@ -8,7 +8,6 @@ a:hover {
 
 h2 {
     text-align: center;
-    padding-top: 3rem;
 }
 
 p {
@@ -27,6 +26,11 @@ p {
     height: 5rem;
     width: 18rem;
     margin: 1rem;
+}
+
+.achievementCol:hover {
+    color: white;
+    background-color: #040404;
 }
 
 .bigRegisButton {
@@ -55,8 +59,17 @@ p {
     margin-bottom: 2rem;
 }
 
+.evenBG {
+    background-color: white;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+
 .FontAwesomeLogo {
     font-size: 3rem;
+}
+.fa-solid {
+    color: #30318B;
 }
 
 .homeImageCrop {
@@ -105,6 +118,8 @@ p {
 
 .oddBG {
     background-color: #E8E4E1;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
 }
 
 .parent {
