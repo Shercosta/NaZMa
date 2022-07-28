@@ -54,6 +54,18 @@ p {
     margin-bottom: 2rem;
 }
 
+.clientCard {
+    display: inline-flex;
+    margin: 2rem;
+}
+
+.clientName {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+}
+
 .evenBG {
     background-color: white;
     padding-bottom: 2rem;
@@ -131,4 +143,17 @@ p {
 
 .tinyImage {
     width: 100%;
+}
+
+.trainerCard {
+    display: inline-flex;
+    margin: 0.7rem;
+    width: 15rem;
+    height: 18rem;
+    text-align: center;
+}
+
+.trainerMargin {
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
