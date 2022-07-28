@@ -6,6 +6,11 @@ a:hover {
     color: inherit;
 }
 
+footer {
+    background-color: #040404;
+    color: white;
+}
+
 h2 {
     text-align: center;
 }
@@ -75,8 +80,14 @@ p {
 .FontAwesomeLogo {
     font-size: 3rem;
 }
+
 .fa-solid {
     color: #30318B;
+}
+
+.footerIcon {
+    letter-spacing: 1rem;
+    font-size: 2rem;
 }
 
 .homeImageCrop {
@@ -119,6 +130,10 @@ p {
     padding-bottom: 3rem;
 }
 
+.marginer {
+    margin: 2rem auto;
+}
+
 .nav-item {
     text-align: center;
 }
@@ -156,4 +171,8 @@ p {
 .trainerMargin {
     margin-left: 10rem;
     margin-right: 10rem;
+}
+
+#Footer_Section .container-fluid {
+    padding: 3% 15% 3%;
 }
