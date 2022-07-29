@@ -130,6 +130,11 @@ p {
     padding-bottom: 3rem;
 }
 
+.margin-l-10-r-10-percent {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .nav-item {
     text-align: center;
 }
@@ -148,6 +153,17 @@ p {
     position: relative;
 }
 
+.partnerBox {
+    padding: 3%;
+    width: 100%;
+    height: 100%;
+    background-color: #FEFEF9;
+}
+
+.partnerParent {
+    display: inline;
+}
+
 .sectionHeadings {
     text-align: center;
 }
@@ -164,10 +180,22 @@ p {
     text-align: center;
 }
 
+/* .cardPercent {
+    display: inline-flex;
+    margin: 0.7rem;
+    width: 15%;
+    height: 18%;
+    text-align: center;
+} */
+
+/* EXPERIMENTAL ABOVE --------------------------------------------------------------- */
+
 .trainerMargin {
     margin-left: 10rem;
     margin-right: 10rem;
 }
+
+/* IDs --------------------------------------------------------------------------------- */
 
 #Footer_Section .col {
     margin-bottom: 1rem;
@@ -183,4 +211,25 @@ p {
 
 #Footer_Section .fa-brands:hover {
     color: #119DA4;
+}
+
+#Partner_Section img {
+    /* padding: 10%; */
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
+#Partner_Section .col {
+    margin-top: 2%;
+}
+
+.partnerBoxEx {
+    background-color: #FEFEF9;
+    width: 100%;
+    height: 100%;
+}
+
+.partnerBoxEx img {
+    object-fit: contain;
 }
