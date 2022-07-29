@@ -130,10 +130,6 @@ p {
     padding-bottom: 3rem;
 }
 
-.marginer {
-    margin: 2rem auto;
-}
-
 .nav-item {
     text-align: center;
 }
@@ -173,6 +169,18 @@ p {
     margin-right: 10rem;
 }
 
+#Footer_Section .col {
+    margin-bottom: 1rem;
+}
+
 #Footer_Section .container-fluid {
     padding: 3% 15% 3%;
+}
+
+/* #Footer_Section .fa-brands {
+    font-size: 3rem;
+} */
+
+#Footer_Section .fa-brands:hover {
+    color: #119DA4;
 }
