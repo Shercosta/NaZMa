@@ -1,3 +1,8 @@
+/* This is the CSS of the website. 
+You can read this CSS as it is divided:
+per page -> per section (sorted as in webpage) -> Elements -> Classes ->IDs -> sorted alphabethically.
+All Global attributes will be stored in global comments in this css file. */
+
 /* Elements */
 
 a,
@@ -19,221 +24,200 @@ p {
     margin: 0;
 }
 
+/* Global Attributes */
+    /* Classes */
 
-/* classes */
+        .card:hover {
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
 
-.achievementItems {
-    text-align: center;
-}
+        .centerDiv {
+            margin: auto;
+            margin-bottom: 2rem;
+        }
 
-.achievementCol {
-    background-color: white;
-    height: 5rem;
-    width: 18rem;
-    margin: 1rem;
-}
+        .evenBG {
+            background-color: white;
+            padding-bottom: 2rem;
+            padding-top: 3rem;
+        }
 
-.bigRegisButton {
-    position: absolute;
-    /* top: 50%; */
-    left: 50%;
-}
+        .oddBG {
+            background-color: #E8E4E1;
+            padding-bottom: 2rem;
+            padding-top: 3rem;
+        }
 
-.blankTab {
-    width: 25%;
-}
+        .parent {
+            display: flex;
+        }
 
-.centerDiv {
-    margin: auto;
-    margin-bottom: 2rem;
-}
+/* Home Page */
 
-.card:hover {
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-}
+    /* Navigation Bar Section */
+        /* Classes */
 
-.cardTinyImage {
-    height: 40%;
-    width: 40%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+            .nav-item {
+                text-align: center;
+            }
 
-.clientCard {
-    display: inline-flex;
-    margin: 2rem;
-}
+    /* Home Section */
+        /* Classes */
 
-.clientName {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    text-align: right;
-}
+            .homeImageCrop {
+                width: 50%;
+                height: 100%;
+                overflow: hidden;
+                z-index: -1;
+            }
 
-.evenBG {
-    background-color: white;
-    padding-bottom: 2rem;
-    padding-top: 3rem;
-}
+            .homeSect {
+                padding-left: 0;
+            }
 
-.FontAwesomeLogo {
-    font-size: 3rem;
-}
+            .homeSectRight {
+                background-color: #E8E4E1;
+                min-height: 100%;
+                margin-left: 0;
+                margin-right: 0;
+            }
 
-.fa-solid {
-    color: #30318B;
-}
+            .homeTextLarge {
+                margin: 40% 3rem 2rem 3rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
 
-.footerIcon {
-    letter-spacing: 1rem;
-    font-size: 2rem;
-}
+            .homeTextSmall {
+                margin: 2rem 1rem 2rem 1rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
 
-.homeImageCrop {
-    width: 50%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
+    /* About Us Section */
+        /* Classes */
+            
+            .margin-l-10-r-10-percent {
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+    
+    /* Layanan Section */
+        /* Classes */
+            
+            .blankTab {
+                width: 25%;
+            }
 
-.homeSect {
-    padding-left: 0;
-}
+            .cardTinyImage {
+                height: 40%;
+                width: 40%;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
 
-.homeSectRight {
-    background-color: #E8E4E1;
-    min-height: 100%;
-    margin-left: 0;
-    margin-right: 0;
-}
+            .layananCard {
+                padding-top: 3rem;
+                padding-bottom: 4rem;
+            }
 
-.homeTextLarge {
-    margin: 40% 3rem 2rem 3rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
+            .layananTab {
+                margin-top: 1.2rem;
+                padding-bottom: 3rem;
+            }
 
-.homeTextSmall {
-    margin: 2rem 1rem 2rem 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
+    /* Achievement Section */
+        /* Classes */
 
-.layananCard {
-    padding-top: 3rem;
-    padding-bottom: 4rem;
-}
+            .achievementCol {
+                background-color: white;
+                height: 5rem;
+                width: 18rem;
+                margin: 1rem;
+            }
 
-.layananTab {
-    margin-top: 1.2rem;
-    padding-bottom: 3rem;
-}
+            .fa-trophy {
+                color: #30318B;
+            }
 
-.margin-l-10-r-10-percent {
-    margin-left: 10%;
-    margin-right: 10%;
-}
+            .FontAwesomeLogo {
+                font-size: 3rem;
+            }
 
-.nav-item {
-    text-align: center;
-}
+    /* Client Section */
+        /* Classes */
+            
+            .clientCard {
+                display: inline-flex;
+                margin: 2rem;
+            }
 
-.oddBG {
-    background-color: #E8E4E1;
-    padding-bottom: 2rem;
-    padding-top: 3rem;
-}
+            .clientName {
+                position: absolute;
+                bottom: 1rem;
+                right: 1rem;
+                text-align: right;
+            }
 
-.parent {
-    display: flex;
-}
+    /* Trainer Section */
+        /* Classes */
+            
+            .trainerCard {
+                display: inline-flex;
+                margin: 0.7rem;
+                width: 15rem;
+                height: 18rem;
+                text-align: center;
+            }
 
-.parentRegis {
-    position: relative;
-}
+    /* Partner Section */
 
-.partnerBox {
-    padding: 3%;
-    width: 100%;
-    height: 100%;
-    background-color: #FEFEF9;
-}
+        #Partner_Section .col {
+            margin-top: 2%;
+        }
 
-.partnerParent {
-    display: inline;
-}
+        /* Classes */
 
-.sectionHeadings {
-    text-align: center;
-}
+            .boxPartner {
+                display: inline-flex;
+                background-color: white;
+                max-width: 10em;
+                min-width: 2em;
+                width: 17%;
+                aspect-ratio: 1/1;
+            }
+            
+            .centerItems {
+                text-align: center;
+            }
 
-.tinyImage {
-    width: 100%;
-}
+            .imgPartner {
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: contain;
+                padding: 2%;
+            }
 
-.trainerCard {
-    display: inline-flex;
-    margin: 0.7rem;
-    width: 15rem;
-    height: 18rem;
-    text-align: center;
-}
+    /* Footer Section */
 
-/* .cardPercent {
-    display: inline-flex;
-    margin: 0.7rem;
-    width: 15%;
-    height: 18%;
-    text-align: center;
-} */
+        #Footer_Section .col {
+            margin-bottom: 1rem;
+        }
+        
+        #Footer_Section .container-fluid {
+            padding: 3% 15% 3%;
+        }
+        
+        
+        #Footer_Section .fa-brands:hover {
+            color: #119DA4;
+        }
 
-/* EXPERIMENTAL ABOVE --------------------------------------------------------------- */
+        /* Classes */
+            
+            .footerIcon {
+                letter-spacing: 1rem;
+                font-size: 2rem;
+            }
+            
 
-.trainerMargin {
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
-/* IDs --------------------------------------------------------------------------------- */
-
-#Footer_Section .col {
-    margin-bottom: 1rem;
-}
-
-#Footer_Section .container-fluid {
-    padding: 3% 15% 3%;
-}
-
-/* #Footer_Section .fa-brands {
-    font-size: 3rem;
-} */
-
-#Footer_Section .fa-brands:hover {
-    color: #119DA4;
-}
-
-#Partner_Section .col {
-    margin-top: 2%;
-}
-
-/* EXPERIMENTAL */
-
-.boxTMP {
-    display: inline-flex;
-    background-color: white;
-    max-width: 10em;
-    min-width: 2em;
-    width: 17%;
-    aspect-ratio: 1/1;
-}
-.centerItems {
-    text-align: center;
-}
-
-.imgTMP {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    padding: 2%;
-}
