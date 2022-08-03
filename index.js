@@ -33,3 +33,6 @@ $(".achievementCol").mouseenter(function() { //changes the thropy color of FontA
 $(".achievementCol").mouseleave(function() { //changes the thropy color of FontAwesome when mouse NO LONGER hovered above the element which has the class of "achievementCol"
     $(".fa-trophy").css("color", "#30318B")
 })
+
+//alert for new pages
+alert("Halaman Layanan sudah dibuat. Silahkan klik Layanan pada Navigation Bar")
