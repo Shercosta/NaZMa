@@ -11,6 +11,10 @@ a:hover {
     color: inherit;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 footer {
     background-color: #040404;
     color: white;
@@ -64,6 +68,10 @@ p {
 
             .nav-item {
                 text-align: center;
+            }
+
+            .imgBrand {
+                width: 100px;
             }
 
     /* Home Section */
