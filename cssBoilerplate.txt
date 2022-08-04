@@ -11,10 +11,6 @@ a:hover {
     color: inherit;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 footer {
     background-color: #040404;
     color: white;
