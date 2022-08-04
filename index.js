@@ -35,4 +35,4 @@ $(".achievementCol").mouseleave(function() { //changes the thropy color of FontA
 })
 
 //alert for new pages
-alert("Halaman Layanan sudah dibuat. Silahkan klik Layanan pada Navigation Bar")
+// alert("Halaman Layanan sudah dibuat. Silahkan klik Layanan pada Navigation Bar")
