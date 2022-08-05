@@ -46,6 +46,10 @@ p {
             padding-top: 3rem;
         }
 
+        .firstSection {
+            padding-top: 5rem;
+        }
+
         .oddBG {
             background-color: #E8E4E1;
             padding-bottom: 2rem;
@@ -89,78 +93,30 @@ p {
             width: 100px;
         }
 
-/* Layanan Page */
+/* Blog Page */
 
-    .card {
-        display: inline-flex;
-        margin-left: 1%;
-        margin-right: 1%;
-        margin-bottom: 2%;
-        width: 18rem;
-        aspect-ratio: 1/1;
+    section {
+        margin: auto 3%;
     }
 
-    .card-text {
-        text-align: left;
-    }
+    /* Spotlight */
 
-    .modal-body {
-        text-align: justify;
-    }
-
-    .squareImage {
-        background-color: white;
-        width: 3rem;
-        aspect-ratio: 1/1;
-        margin-bottom: 0;
-        margin-top: 2rem;
-    }
-
-    @media screen and (min-width: 992px) {
-        .marginLeftRight {
-            margin-left: 10rem;
-            margin-right: 10rem;
-        }
-    }
-
-    /* PIT Section */
-
-        /* Classes */
-
-            .firstSection {
-                padding-top: 5rem;
-            }
-
-            .layananReadMore {
-                color: blue;
-                position: absolute;
-                bottom: 1rem;
-                right: 1rem;
-            }
-            
-            .layananReadMore:hover {
-                color: blue;
-                cursor: pointer;
-                text-decoration: underline;
-            }
-
-    /* PMC Section */
-
-        #PMC_Section .modal-content {
-            background-color: #212529;
+        .verticalMiddle {
+            display:flex;
+            align-items:center;
         }
 
-        /* Classes */
+    /* Non Spotlight */
 
-            .layananReadMoreDark {
-                color: yellow;
-                position: absolute;
-                bottom: 1rem;
-                right: 1rem;
-            }
+        #NonSpotlight_Section .card {
+            height: 100%;
+        }
 
-            .layananReadMoreDark:hover {
-                color: yellow;
-                cursor: pointer;
-                text-decoration: underline;
-            }
+        .card-img-top {
+            aspect-ratio: 2 / 1;
+            object-fit: cover;
+        }
+
+        .nonSpotCol {
+            padding-bottom: 1.5rem;
+        }
