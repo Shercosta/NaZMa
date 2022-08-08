@@ -218,27 +218,61 @@
     <!-- Client Section ----------------------------------------------------------------------------------->
 
     <section id="Client_Section">
-        <div class="container-fluid evenBG">
-            <h2>Client's Review</h2>
-            <div class="parent">
-                <div class="centerDiv">
-                    <div class="card text-bg-light clientCard" style="width: 17rem; height: 20rem;">
-                        <img src="https://img.freepik.com/premium-photo/indonesian-man-smiling_86639-992.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit."</p>
-                            <p class="clientName"><em>Chandra Liouwa, Bekasi</em></p>
+        <div class="container-fluid oddBG">
+            <div id="clientCarousel" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="clientSlide">
+                            <div class="clientTop verticalMiddle">
+                                <p class="centerItems clientCaption"><strong>Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Morbi accumsan ex semper neque aliquam tempus.</strong></p>
+                            </div>
+                            <div class="centerItems">
+                                <img src="https://img.freepik.com/premium-photo/indonesian-man-smiling_86639-992.jpg"
+                                    alt="" class="rounded-circle clientImage">
+                                <p class="clientIdentity"><em>Chandra Kilau, Bekasi</em></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="card text-bg-light clientCard" style="width: 17rem; height: 20rem;">
-                        <img src="https://img.freepik.com/premium-photo/asian-woman-white-t-shirt-stand-smiling-with-braces-white-background_2034-2735.jpg"
-                            class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">"Duis aute irure dolor in reprehenderit in voluptate velit."</p>
-                            <p class="clientName"><em>Kayla Rufikasari, Jakarta</em></p>
+                    <div class="carousel-item">
+                        <div class="clientSlide">
+                            <div class="clientTop verticalMiddle">
+                                <p class="centerItems clientCaption"><strong>Vestibulum urna sapien, tincidunt quis
+                                        euismod sed, elementum id erat. Nunc velit orci, congue ut scelerisque a,
+                                        egestas id turpis.</strong></p>
+                            </div>
+                            <div class="centerItems">
+                                <img src="https://img.freepik.com/premium-photo/asian-woman-white-t-shirt-stand-smiling-with-braces-white-background_2034-2735.jpg"
+                                    alt="" class="rounded-circle clientImage">
+                                <p class="clientIdentity"><em>Kayla Rufikasari, Jakarta</em></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="clientSlide">
+                            <div class="clientTop verticalMiddle">
+                                <p class="centerItems clientCaption"><strong>Aliquam eu sollicitudin leo. Aliquam erat
+                                        volutpat. Etiam pharetra, massa nec ultrices sollicitudin, nisi nisl ullamcorper
+                                        elit, in vehicula erat tellus quis enim.</strong></p>
+                            </div>
+                            <div class="centerItems">
+                                <img src="https://www.accenture.com/t20220614T031106Z__w__/id-en/_acnmedia/Accenture/Redesign-Assets/DotCom/Images/Local/General/143/Accenture-Jayant-400x400.jpg"
+                                    alt="" class="rounded-circle clientImage">
+                                <p class="clientIdentity"><em>John Farquaad, Ohio</em></p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#clientCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clientCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -246,504 +280,72 @@
     <!-- Trainer Section ---------------------------------------------------------------------------------->
 
     <section id="Trainer_Section">
-        <div class="evenBG">
-            <h2>Certified Trainer</h2>
-            <!-- For LARGE Screen (3 Carousel Slides of 4 Cards) -->
-            <div id="largeTrainerCarousel" class="carousel carousel-dark slide d-none d-lg-block"
-                data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 1<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 2<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 3<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 4<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 5<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 6<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 7<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 8<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 9<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 10<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 11<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 12<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
+        <div class="container-fluid evenBG centerItems">
+            <h2>Certified Trainers</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-bg-info trainerCard">
+                        <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Person 1<br><strong>Bidang
+                                    Tersertifikasi</strong></p>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#largeTrainerCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#largeTrainerCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-bg-info trainerCard">
+                        <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Person 3<br><strong>Bidang
+                                    Tersertifikasi</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-bg-info trainerCard">
+                        <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Person 4<br><strong>Bidang
+                                    Tersertifikasi</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card text-bg-info trainerCard">
+                        <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Person 2<br><strong>Bidang
+                                    Tersertifikasi</strong></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <!-- For MEDIUM Screen (4 Carousel Slides of 3 Cards) -->
-            <div id="mediumTrainerCarousel" class="carousel carousel-dark slide d-none d-md-block d-lg-none"
-                data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 1<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 2<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 3<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 4<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 5<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 6<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 7<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 8<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 9<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 10<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 11<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 12<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#mediumTrainerCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#mediumTrainerCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
-            <!-- For SMALL Screen (12 Carousel Slides of 1 Card) -->
-            <div id="smallTrainerCarousel" class="carousel carousel-dark slide d-block d-md-none"
-                data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="5"
-                        aria-label="Slide 6"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="6"
-                        aria-label="Slide 7"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="7"
-                        aria-label="Slide 8"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="8"
-                        aria-label="Slide 9"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="9"
-                        aria-label="Slide 10"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="10"
-                        aria-label="Slide 11"></button>
-                    <button type="button" data-bs-target="#smallTrainerCarousel" data-bs-slide-to="11"
-                        aria-label="Slide 12"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 1<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 2<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 3<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://media.istockphoto.com/photos/businessman-walking-in-the-streets-of-kuala-lumpur-picture-id984156760?k=20&m=984156760&s=612x612&w=0&h=dblq99sFhlQT2BsBL5G0V4a62zS5biP08lydUtOCFKU="
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 4<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 5<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 6<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 7<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://st2.depositphotos.com/1570716/10499/i/600/depositphotos_104997616-stock-photo-businesswoman-on-coffee-break.jpg"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 8<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 9<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 10<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 11<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="parent">
-                            <div class="centerDiv">
-                                <div class="card text-bg-info trainerCard">
-                                    <img src="https://img.freepik.com/premium-photo/portrait-pretty-teacher-holding-notepads-classroom-school_13339-273031.jpg?w=2000"
-                                        class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <p class="card-text">Person 12<br><strong>Bidang
-                                                Tersertifikasi</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#smallTrainerCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#smallTrainerCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-
+        </div>
     </section>
 
     <!-- Partner Section --------------------------------------------------------------------------------->
 
     <section id="Partner_Section">
-        <div class="container-fluid oddBG">
+        <div class="container-fluid evenBG">
             <h2>Partner Kami</h2>
             <div class="parent">
                 <div class="row">
                     <div class="col-12 centerItems">
-                        <img src="https://upload.wikimedia.org/wikipedia/id/thumb/5/55/BNI_logo.svg/1200px-BNI_logo.svg.png" alt="" class="img-fluid">                                    
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bank_Mandiri_logo_2016.svg/1200px-Bank_Mandiri_logo_2016.svg.png" alt="" class="img-fluid">    
-                        <img src="https://www.ukmindonesia.id/assets/logoukmindonesia.png" alt="" class="img-fluid">                    
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/BANK_BRI_logo.svg/1280px-BANK_BRI_logo.svg.png" alt="" class="img-fluid">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/OJK_Logo.png" alt="" class="img-fluid">
+                        <img src="https://www.ukmindonesia.id/assets/logoukmindonesia.png"
+                            alt="" class="img-fluid">
+                        <img src="https://www.markplusinstitute.com/uploads/system_logo/markplusinstitute.jpg"
+                            alt="" class="img-fluid">
+                        <img src="data:image/png;base64,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" alt="" class="img-fluid">
+                        <img src="https://umkmnaikkelas.com/images/logo.png"
+                            alt="" class="img-fluid">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/OJK_Logo.png" alt=""
+                            class="img-fluid">
                     </div>
-                </div>                
+                </div>
             </div>
         </div>
     </section>
@@ -768,10 +370,14 @@
                 <div class="col position-relative">
                     <div class="position-absolute top-50 start-50 translate-middle">
                         <p class="footerIcon">
-                            <a href="https://www.instagram.com/nazma_office/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/nazma_office-102078417993512/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-                            <a href="https://www.linkedin.com/in/nazma-office-77899b199/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.tiktok.com/@nazma_office?_t=8UY3N8jxk8X&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                            <a href="https://www.instagram.com/nazma_office/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/nazma_office-102078417993512/" target="_blank"><i
+                                    class="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/nazma-office-77899b199/" target="_blank"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.tiktok.com/@nazma_office?_t=8UY3N8jxk8X&_r=1" target="_blank"><i
+                                    class="fa-brands fa-tiktok"></i></a>
                         </p>
                     </div>
                 </div>
