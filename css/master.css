@@ -176,21 +176,58 @@ p {
 
     /* Client Section */
         /* Classes */
+
+            .clientCaption {
+                font-size: 200%;
+            }
             
-            .clientCard {
+            /* .clientCard {
                 display: inline-flex;
                 margin: 2rem;
+            } */
+
+            .clientIdentity {
+                margin-left: 1rem;
+                display: inline-block;
             }
 
-            .clientName {
+            .clientImage {
+                width: 6rem;
+                object-fit: cover;
+                aspect-ratio: 1/1;
+                display: inline-block;
+            }
+
+            /* .clientName {
                 position: absolute;
                 bottom: 1rem;
                 right: 1rem;
                 text-align: right;
+            } */
+
+            .clientSlide {
+                height: 90vh;
+                margin: auto 15%;
+            }
+
+            .clientTop {
+                height: 60vh;
+            }
+
+            .verticalMiddle {
+                display:flex;
+                align-items:center;
             }
 
     /* Trainer Section */
         /* Classes */
+
+        @media screen and (min-width: 834px) {
+            #Trainer_Section {
+                margin-left: 10rem;
+                margin-right: 10rem;
+            }
+        }
             
             .trainerCard {
                 display: inline-flex;
