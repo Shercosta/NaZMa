@@ -206,12 +206,16 @@ p {
             } */
 
             .clientSlide {
-                height: 90vh;
+                /* height: 90vh; */
                 margin: auto 15%;
             }
 
-            .clientTop {
+            /* .clientTop {
                 height: 60vh;
+            } */
+
+            .topBottomDivider {
+                margin-top: 2rem;
             }
 
             .verticalMiddle {
