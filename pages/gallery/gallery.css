@@ -1,0 +1,212 @@
+/* This is the CSS of the website. 
+You can read this CSS as it is divided:
+per page -> per section (sorted as in webpage) -> Elements -> Classes ->IDs -> sorted alphabethically.
+All Global attributes will be stored in global comments in this css file. */
+
+/* Elements */
+
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+    background-color: #040404;
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+/* Global Attributes */
+    /* Classes */
+
+        .card:hover {
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        }
+
+        .centerDiv {
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+
+        .centerItems {
+            text-align: center;
+        }
+
+        .evenBG {
+            background-color: white;
+            padding-bottom: 2rem;
+            padding-top: 3rem;
+        }
+
+        .firstSection {
+            padding-top: 5rem;
+        }
+
+        .oddBG {
+            background-color: #E8E4E1;
+            padding-bottom: 2rem;
+            padding-top: 3rem;
+        }
+
+        .parent {
+            display: flex;
+        }
+
+/* Footer Section */
+
+    #Footer_Section .col {
+        margin-bottom: 1rem;
+    }
+
+    #Footer_Section .container-fluid {
+        padding: 3% 15% 3%;
+    }
+
+
+    #Footer_Section .fa-brands:hover {
+        color: #119DA4;
+    }
+
+    /* Classes */
+        
+        .footerIcon {
+            letter-spacing: 1rem;
+            font-size: 2rem;
+        }
+
+/* Navigation Bar Section */
+        /* Classes */
+
+        .nav-item {
+            text-align: center;
+        }
+
+        .imgBrand {
+            width: 100px;
+        }
+
+
+
+.captionHolder {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    color: rgba(255, 255, 255, 0);
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.captionHolder:hover {
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageHolder {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+}
+
+/* PICTURE IDs */
+
+#picture-1 {
+    background-image: url('https://preview.redd.it/9t79ciac5hg91.jpg?width=640&crop=smart&auto=webp&s=a34c8e03f0b32ea639229997ae1327e0b85971e2');
+}
+
+#picture-2 {
+    background-image: url('https://preview.redd.it/ozhcf8843jg91.jpg?width=640&crop=smart&auto=webp&s=d53b0ca4320fa699a348223fb3543f12ac6c4961');
+}
+
+#picture-3 {
+    background-image: url('https://preview.redd.it/rsf9jrmz9kg91.png?width=640&crop=smart&auto=webp&s=79e90c988c7d1299ac0d3db899fedf070087d21c');
+}
+
+#picture-4 {
+    background-image: url('https://preview.redd.it/o8lijks0lfg91.jpg?width=640&crop=smart&auto=webp&s=8ab8d365094a1768912972f5f1f01ea1483c3adf');
+}
+
+#picture-5 {
+    background-image: url('https://preview.redd.it/35o7us4k4kg91.jpg?width=640&crop=smart&auto=webp&s=99cb1c2ec0941e04f36b50149faa13cd927c874e');
+}
+
+#picture-6 {
+    background-image: url('https://preview.redd.it/j8w5mrgqqlg91.jpg?width=640&crop=smart&auto=webp&s=ed6dcf92045fbe6fd8436822dc7b9bfcaea8bd97');
+}
+
+#picture-7 {
+    background-image: url('https://preview.redd.it/gl1gs1krxjg91.jpg?width=640&crop=smart&auto=webp&s=01e0dcfe0e19d9e8898ee1cc323e2a58122f4def');
+}
+
+#picture-8 {
+    background-image: url('https://preview.redd.it/68uea5gxnig91.jpg?width=640&crop=smart&auto=webp&s=9a68c2ce76640f2904a2c8e19f758924eb756df8');
+}
+
+#picture-9 {
+    background-image: url('https://preview.redd.it/9nwnjog6tfg91.jpg?width=640&crop=smart&auto=webp&s=178f89fc92337622debec1dcdcfe50de7ae0b31d');
+}
+
+#picture-10 {
+    background-image: url('https://preview.redd.it/eet9e8h89ig91.jpg?width=640&crop=smart&auto=webp&s=c98332c2bbb4cd7b6d8b0e72eff88bd76405c1e1');
+}
+
+#picture-11 {
+    background-image: url('https://preview.redd.it/tzhhjoosnig91.jpg?width=640&crop=smart&auto=webp&s=2a94ecef2ed344225feb0d2cc8d2b149d10c0363');
+}
+
+#picture-12 {
+    background-image: url('https://preview.redd.it/36igt2yytbg91.jpg?width=640&crop=smart&auto=webp&s=f967f8e516d1efc3329dcc957c9ad71a29aaf2a7');
+}
+
+#picture-13 {
+    background-image: url('https://preview.redd.it/cf00c6gtudg91.png?width=640&crop=smart&auto=webp&s=616082dee7dab11eb61025194ce25203fb8bea72');
+}
+
+#picture-14 {
+    background-image: url('https://preview.redd.it/5fm34th89ig91.jpg?width=640&crop=smart&auto=webp&s=1a090969411ebc8965aea5e5bf10b797aaf6b67f');
+}
+
+#picture-15 {
+    background-image: url('https://preview.redd.it/3q8w9awcsag91.png?width=640&crop=smart&auto=webp&s=dc76292a68e4ae4b45c853ff74b351b0cbabfa7c');
+}
+
+#picture-16 {
+    background-image: url('https://preview.redd.it/cpf2ida4v7g91.jpg?width=640&crop=smart&auto=webp&s=57f688bb6de259be5b7ba08490885574b68844b0');
+}
+
+#picture-17 {
+    background-image: url('https://preview.redd.it/iwno5fcoidg91.jpg?width=640&crop=smart&auto=webp&s=27d988b4fd4780e1cee0ed57af8a6687932a73ea');
+}
+
+#picture-18 {
+    background-image: url('https://preview.redd.it/7pp7ezzudbg91.png?width=640&crop=smart&auto=webp&s=8aa822ecc2e9967f17f0ddbe5dc15121cb228db9');
+}
+
+#picture-19 {
+    background-image: url('https://preview.redd.it/jrmbfst5g6g91.png?width=640&crop=smart&auto=webp&s=f242e64109fc9c814aa98479968b71f291df624b');
+}
+
+#picture-20 {
+    background-image: url('https://preview.redd.it/55puslwe48g91.png?width=640&crop=smart&auto=webp&s=91be05a8d06a6df51eb04f2b6b726d64174fd139');
+}
+
+#picture-21 {
+    background-image: url('https://preview.redd.it/4jobu0ci24g91.jpg?width=640&crop=smart&auto=webp&s=cc5eea26cdc73ea3126b97f01bc62f9fdeff9d96');
+}

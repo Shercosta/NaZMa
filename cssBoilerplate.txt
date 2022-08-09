@@ -46,6 +46,10 @@ p {
             padding-top: 3rem;
         }
 
+        .firstSection {
+            padding-top: 5rem;
+        }
+
         .oddBG {
             background-color: #E8E4E1;
             padding-bottom: 2rem;

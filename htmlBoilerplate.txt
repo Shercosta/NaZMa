@@ -19,7 +19,7 @@
         crossorigin="anonymous"></script>
 
     <!-- our CSS -->
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="gallery.css">
 
     <!-- FontAwesome JS -->
     <script src="https://kit.fontawesome.com/6b522f63d7.js" crossorigin="anonymous"></script>
@@ -33,7 +33,7 @@
         <div>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="../../index.html">
                         <img src="images/NaZMa-Office.png" alt="" class="imgBrand">
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -44,22 +44,22 @@
                     <div class="collapse navbar-collapse" id="navbarMobileAction">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#Home_Section">Beranda</a>
+                                <a class="nav-link" aria-current="page" href="../../index.html#Home_Section">Beranda</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#AboutUs_Section">Tentang Kami</a>
+                                <a class="nav-link" href="../../index.html#AboutUs_Section">Tentang Kami</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="pages/layanan/layanan.html">Layanan</a>
+                                <a class="nav-link" href="../layanan/layanan.html">Layanan</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#Achievement_Section">Achievement</a>
+                                <a class="nav-link" href="../../index.html#Achievement_Section">Achievement</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
+                                <a class="nav-link" href="../blog/blog.html">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Galeri</a>
+                                <a class="nav-link active" href="#">Galeri</a>
                             </li>
                             <li class="nav-item">
                                 <button type="button" class="btn btn-outline-info">Event</button>
